@@ -20,7 +20,7 @@ serde_json = { version = "1.0", optional = true }
 rand = { version = "0.8", optional = true }
 # https://rhai.rs/book/start/features.html
 rhai = { version = "1.8.0", optional = true } # scripting lanugage, yeet
-cute =  { version ="0.3", optional = true } # python-like list comprehensions
+cute =  { version ="0.3"} # python-like list comprehensions
 
 # Error Handling
 thiserror = "1.0"
@@ -35,6 +35,8 @@ tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt"] }
 
 # Your dependencies
+tasky = "3.0.1"
+futures-concurrency = "3.0.2"
 
 
 [features]
