@@ -23,7 +23,7 @@ rhai = { version = "1.8.0", optional = true } # scripting lanugage, yeet
 cute = { version = "0.3" }                    # python-like list comprehensions
 
 # Error Handling
-thiserror = "1.0"
+thiserror = "2.0"
 anyhow = "1.0"
 # Async dependencies
 tokio = { version = "1", features = ["full"] }
